@@ -4,8 +4,11 @@
 using namespace std; 
 
 int main() {
-    string a = "radar";
+    string a; 
     string rev;
+    
+    cout << "enter string : ";
+    cin >> a;
     
     for (int i = a.length()-1; i >= 0; i--) {
         rev += a[i];
