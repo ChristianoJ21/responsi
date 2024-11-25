@@ -12,10 +12,10 @@ int main() {
     }
     
     if (rev == a) {
-        cout << "palindrome" << endl;
+        cout << a << " is palindrome" << endl;
     }
     else {
-        cout << "not palindrome" << endl;
+        cout << a << " is not palindrome" << endl;
     }
 
     return 0;
